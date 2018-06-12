@@ -3,14 +3,6 @@ theme: jekyll-theme-hacker
 title: X社區的秘密
 
 
-# Date / Time format  #时间格式不用修改
-## Hexo uses Moment.js to parse and display date
-## You can customize the date format as defined in
-## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
-time_format: HH:mm:ss
-
-
 # 網頁計數器
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on   http://ibruce.info/2015/04/04/busuanzi/
@@ -19,13 +11,13 @@ busuanzi_count:
 enable: true
 # custom uv span for the whole site
 site_uv: true
-site_uv_header: 
+site_uv_header: <i class="fa fa-file-o"></i>
 site_uv_footer: 
 # custom pv span for the whole site
 site_pv: true
-site_pv_header: 
+site_pv_header: <i class="fa fa-file-o"></i>
 site_pv_footer:
 # custom pv span for one page only
 page_pv: true
-page_pv_header: 
+page_pv_header: <i class="fa fa-file-o"></i>
 page_pv_footer:
