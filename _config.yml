@@ -1,4 +1,4 @@
-theme: jekyll-theme-hacker
+#theme: jekyll-theme-hacker
 # Site
 title: X社區的秘密
 
@@ -19,8 +19,3 @@ site_pv_footer:
 page_pv: true
 page_pv_header: <i class="fa fa-file-o"></i>
 page_pv_footer:
-
-作者：豆沙包o小白
-链接：https://www.jianshu.com/p/7461895ed177
-來源：简书
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
