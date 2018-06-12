@@ -3,6 +3,14 @@
 title: X社區的秘密
 
 
+# Date / Time format  #时间格式不用修改
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+
 # 網頁計數器
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on   http://ibruce.info/2015/04/04/busuanzi/
