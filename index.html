@@ -10,9 +10,10 @@
         var busuanziSiteOffset = parseInt(10000);
         function fixCount() {
             if ($("#busuanzi_container_site_pv").css("display") != "none") {
-                clearInterval(int);
-                $("#busuanzi_value_page_pv").html(parseInt($("#busuanzi_value_page_pv").html()) + busuanziSiteOffset);
+                
             }
+            clearInterval(int);
+                $("#busuanzi_value_page_pv").html(parseInt($("#busuanzi_value_page_pv").html()) + busuanziSiteOffset);
         }
     });
 </script>
