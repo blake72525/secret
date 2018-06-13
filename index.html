@@ -1,35 +1,33 @@
-
-<!--加載--不蒜子的網頁計數器--一行腳本，一行標籤 -->
-<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-<!-- 讓計數器有旋轉效果 -->
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-<!-- 標籤 -->
-<span id="busuanzi_container_page_pv" style='display:none'><span id="busuanzi_value_page_pv">
-    <i class="fa fa-spinner fa-spin"></i></span> Hits</span>
-
-<!--加載jquery -->
-<script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-<!-- 不蒜子计数初始值纠正 -->
-<script >
-    $(document).ready(function() {
-        var int = setInterval(fixCount, 50);  // 50ms周期检测函数
-        var countOffset = -200;  // 初始化首次数据
-       function fixCount() {                   
-         if ($("#busuanzi_container_page_pv").css("display") != "none")
-           {
-              $("#busuanzi_value_page_pv").html(parseInt($("#busuanzi_value_page_pv").html()) + countOffset); // 加上初始数据 
-              clearInterval(int); // 停止检测
-         }  
-     }           
-    });
-</script>
-    
-    
 <HTML>
 	<BLOCKQUOTE>
         	<BR><BR>
     	<HEAD>
-        		<FONT color=#bbee00><H1>X社區解密(上)</H1></FONT>
+        	<FONT color=#bbee00><H1>X社區解密(上)
+		<!--加載--不蒜子的網頁計數器--一行腳本，一行標籤 -->
+		<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+		<!-- 讓計數器有旋轉效果 -->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<!-- 標籤 -->
+		<span id="busuanzi_container_page_pv" style='display:none'><span id="busuanzi_value_page_pv">
+		    <i class="fa fa-spinner fa-spin"></i></span> Hits</span>
+
+		<!--加載jquery -->
+		<script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+		<!-- 不蒜子计数初始值纠正 -->
+		<script >
+		    $(document).ready(function() {
+			var int = setInterval(fixCount, 50);  // 50ms周期检测函数
+			var countOffset = -200;  // 初始化首次数据
+		       function fixCount() {                   
+			 if ($("#busuanzi_container_page_pv").css("display") != "none")
+			   {
+			      $("#busuanzi_value_page_pv").html(parseInt($("#busuanzi_value_page_pv").html()) + countOffset); // 加上初始数据 
+			      clearInterval(int); // 停止检测
+			 }  
+		     }           
+		    });
+		</script>
+		</H1></FONT>
     	</HEAD>
         
     	<BODY BGCOLOR=#000000 TEXT=#f5f5f5>
